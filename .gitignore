@@ -1,0 +1,28 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Datos (¡Crítico no subir imágenes de entrenamiento!)
+data/raw/
+data/processed/
+data/dudas/
+
+# Modelos y Pesos
+models/weights/
+models/onnx/*.onnx
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*~
+
+# Logs y SO
+*.log
+.DS_Store
