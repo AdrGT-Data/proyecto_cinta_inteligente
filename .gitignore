@@ -26,3 +26,6 @@ __pycache__/
 # Logs y SO
 *.log
 .DS_Store
+
+# COntraseñas Wifi
+src/edge/src/secrets.h
